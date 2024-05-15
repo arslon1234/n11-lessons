@@ -66,3 +66,40 @@ input::placeholder{
     color: crimson;
     background-color: green;
 } */
+.linear{
+    height: 600px;
+    background: linear-gradient(40deg, gold, red, pink);
+    border-radius: 20px;
+}
+.linear:hover{
+    background: linear-gradient(120deg, gold, red, pink);
+}
+.radial{
+    width: 70%;
+    margin: 0px auto;
+    height: 600px;
+    background: radial-gradient(pink, rgb(116, 212, 190), blue);
+    border-radius: 50%;
+}
+.shadows{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.shadow{
+    width: 30%;
+    height: 500px;
+    border: 1px solid rgb(21, 188, 225);
+    box-shadow: inset 0px 0px 20px rgb(21, 188, 225);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shadow p{
+    text-shadow: 5px 5px 5px rgb(21, 188, 225);
+    color: rgb(21, 188, 225);
+    font-family: monospace;
+}
